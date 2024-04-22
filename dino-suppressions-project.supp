@@ -1,0 +1,3020 @@
+{
+   suppression_rule_1972
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+}
+{
+   suppression_rule_1989
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+}
+{
+   suppression_rule_2006
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+}
+{
+   suppression_rule_2023
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+}
+{
+   suppression_rule_2040
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+}
+{
+   suppression_rule_5793
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+   fun:dino_ui_main_window_new
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+}
+{
+   suppression_rule_5810
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+}
+{
+   suppression_rule_5827
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+   fun:dino_ui_main_window_new
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+}
+{
+   suppression_rule_5844
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+}
+{
+   suppression_rule_5861
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+}
+{
+   suppression_rule_5878
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+}
+{
+   suppression_rule_5895
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+}
+{
+   suppression_rule_5912
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+}
+{
+   suppression_rule_5929
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   obj:/usr/lib64/libgio-2.0.so.0.7800.3
+}
+{
+   suppression_rule_5946
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+}
+{
+   suppression_rule_5980
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_5997
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_6014
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_6031
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_6048
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_announce_message
+   fun:_dino_content_item_store_announce_message_dino_message_processor_message_sent
+   fun:g_cclosure_user_marshal_VOID__OBJECT_OBJECT
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+}
+{
+   suppression_rule_6065
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+   fun:dino_content_item_collection_insert_item
+   fun:dino_content_item_store_announce_message
+   fun:_dino_content_item_store_announce_message_dino_message_processor_message_sent
+   fun:g_cclosure_user_marshal_VOID__OBJECT_OBJECT
+}
+{
+   suppression_rule_6082
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+   fun:dino_content_item_collection_insert_item
+   fun:dino_content_item_store_announce_message
+   fun:_dino_content_item_store_announce_message_dino_message_processor_message_sent
+   fun:g_cclosure_user_marshal_VOID__OBJECT_OBJECT
+}
+{
+   suppression_rule_6099
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_real_insert_item
+   fun:dino_plugins_conversation_item_collection_insert_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+   fun:dino_content_item_collection_insert_item
+   fun:dino_content_item_store_announce_message
+}
+{
+   suppression_rule_6641
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_6658
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_6675
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_6692
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_7933
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+}
+{
+   suppression_rule_7950
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+}
+{
+   suppression_rule_7967
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+}
+{
+   suppression_rule_7984
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+}
+{
+   suppression_rule_8001
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+}
+{
+   suppression_rule_8086
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+}
+{
+   suppression_rule_8103
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+}
+{
+   suppression_rule_8120
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+}
+{
+   suppression_rule_8137
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+}
+{
+   suppression_rule_8154
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_n_latest
+   fun:dino_content_item_store_get_latest
+   fun:dino_ui_conversation_selector_row_content_item_received
+   fun:__lambda10_
+}
+{
+   suppression_rule_8205
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:pango_language_from_string
+   fun:pango_language_get_default
+   fun:gtk_get_locale_direction
+   fun:gtk_init_check
+   fun:gtk_init
+   fun:dino_main
+   fun:main
+}
+{
+   suppression_rule_8321
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_rec_mutex_init
+   obj:*
+   fun:g_type_class_ref
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_plugins_loader_load
+   fun:dino_plugins_loader_load_all
+   fun:dino_main
+   fun:main
+}
+{
+   suppression_rule_14589
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_real_insert_item
+   fun:dino_plugins_conversation_item_collection_insert_item
+   fun:dino_ui_conversation_summary_date_separator_populator_on_inserted_item
+   fun:_dino_ui_conversation_summary_date_separator_populator_on_inserted_item_dino_plugins_conversation_item_collection_inserted_item
+   fun:g_closure_invoke
+}
+{
+   suppression_rule_14606
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_date_separator_on_model_changed
+   fun:_dino_ui_date_separator_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_notify_by_pspec
+}
+{
+   suppression_rule_14623
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_item_by_id
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_14640
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_14657
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_14674
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_14691
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_15235
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property
+   obj:/usr/lib64/libadwaita-1.so.0
+   obj:/usr/lib64/libadwaita-1.so.0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_ui_conversation_titlebar_csd_instance_init
+}
+{
+   suppression_rule_15252
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property
+   obj:/usr/lib64/libadwaita-1.so.0
+   obj:/usr/lib64/libadwaita-1.so.0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_ui_conversation_titlebar_csd_instance_init
+}
+{
+   suppression_rule_15269
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+}
+{
+   suppression_rule_15286
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+   fun:dino_ui_main_window_new
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_15303
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+}
+{
+   suppression_rule_15320
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+   fun:dino_ui_main_window_new
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_15337
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+}
+{
+   suppression_rule_15354
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_15371
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+}
+{
+   suppression_rule_15388
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_15405
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+}
+{
+   suppression_rule_15422
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+}
+{
+   suppression_rule_17241
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_announce_message
+   fun:_dino_content_item_store_announce_message_dino_message_processor_message_sent
+   fun:g_cclosure_user_marshal_VOID__OBJECT_OBJECT
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_17258
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+   fun:dino_content_item_collection_insert_item
+   fun:dino_content_item_store_announce_message
+}
+{
+   suppression_rule_17275
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+   fun:dino_content_item_collection_insert_item
+   fun:dino_content_item_store_announce_message
+}
+{
+   suppression_rule_17292
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_real_insert_item
+   fun:dino_plugins_conversation_item_collection_insert_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+}
+{
+   suppression_rule_17513
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_ui_sizing_bin_constructor
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+}
+{
+   suppression_rule_18567
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gsk_transform_translate_3d
+   fun:gsk_transform_translate
+   fun:gtk_widget_size_allocate
+   fun:dino_ui_avatar_picture_real_size_allocate
+   fun:gtk_widget_allocate
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gtk_widget_allocate
+   fun:gtk_widget_allocate
+}
+{
+   suppression_rule_18975
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:dino_module_identity_construct
+   fun:dino_module_identity_new
+   obj:*
+   fun:g_type_class_ref
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   obj:*
+   obj:*
+}
+{
+   suppression_rule_19026
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:dino_module_identity_construct
+   fun:dino_module_identity_new
+   obj:*
+   fun:g_type_class_ref
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   obj:*
+   obj:*
+}
+{
+   suppression_rule_23795
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_23812
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_23829
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_23846
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+}
+{
+   suppression_rule_24237
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+   fun:dino_ui_main_window_new
+   fun:__lambda20_
+}
+{
+   suppression_rule_24254
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_setup_headerbar
+   fun:dino_ui_main_window_construct
+   fun:dino_ui_main_window_new
+   fun:__lambda20_
+}
+{
+   suppression_rule_24271
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+}
+{
+   suppression_rule_24288
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_view_controller_construct
+   fun:dino_ui_conversation_view_controller_new
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+}
+{
+   suppression_rule_24305
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_main_window_controller_set_window
+   fun:__lambda20_
+   fun:___lambda20__g_application_activate
+   fun:g_closure_invoke
+}
+{
+   suppression_rule_24322
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_announce_message
+   fun:_dino_content_item_store_announce_message_dino_message_processor_message_sent
+}
+{
+   suppression_rule_34267
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_n_latest
+   fun:dino_content_item_store_get_latest
+   fun:dino_ui_conversation_selector_row_content_item_received
+   fun:dino_ui_conversation_selector_row_construct
+}
+{
+   suppression_rule_34556
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gsk_transform_translate_3d
+   fun:gsk_transform_translate
+   fun:gtk_widget_size_allocate
+   fun:dino_ui_avatar_picture_real_size_allocate
+   fun:gtk_widget_allocate
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gtk_widget_allocate
+   fun:gtk_widget_allocate
+}
+{
+   suppression_rule_34573
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gsk_transform_translate_3d
+   fun:gsk_transform_translate
+   fun:gtk_widget_size_allocate
+   fun:dino_ui_avatar_picture_real_size_allocate
+   fun:gtk_widget_allocate
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gtk_widget_allocate
+   fun:gtk_widget_allocate
+}
+{
+   suppression_rule_34590
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gsk_transform_translate_3d
+   fun:gsk_transform_translate
+   fun:gtk_widget_size_allocate
+   fun:dino_ui_avatar_picture_real_size_allocate
+   fun:gtk_widget_allocate
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   fun:gtk_widget_allocate
+   fun:gtk_widget_allocate
+}
+{
+   suppression_rule_37835
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_real_insert_item
+   fun:dino_plugins_conversation_item_collection_insert_item
+   fun:dino_ui_conversation_summary_date_separator_populator_on_inserted_item
+}
+{
+   suppression_rule_37852
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_date_separator_on_model_changed
+   fun:_dino_ui_date_separator_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_37869
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_date_separator_on_model_changed
+   fun:_dino_ui_date_separator_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+{
+   suppression_rule_37886
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_item_by_id
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_37903
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_37920
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+}
+{
+   suppression_rule_37937
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_37954
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+}
+{
+   suppression_rule_37971
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_37988
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+}
+{
+   suppression_rule_38005
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+}
+{
+   suppression_rule_38022
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+}
+{
+   suppression_rule_38124
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   obj:*
+   fun:dino_plugins_root_interface_registered
+}
+{
+   suppression_rule_38872
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib64/libwayland-client.so.0.22.0
+   obj:/usr/lib64/libwayland-client.so.0.22.0
+   fun:wl_display_read_events
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_main_context_iteration
+   fun:g_application_run
+   fun:dino_main
+   fun:main
+}
+{
+   suppression_rule_40316
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+}
+{
+   suppression_rule_40333
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_date_separator_on_model_changed
+   fun:_dino_ui_date_separator_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_40350
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_real_insert_item
+}
+{
+   suppression_rule_42645
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+   fun:_dino_ui_conversation_summary_conversation_item_skeleton_set_header_g_object_notify
+}
+{
+   suppression_rule_43155
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_regex_new
+   obj:*
+   obj:*
+   fun:g_type_class_ref
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   obj:*
+   obj:*
+   obj:*
+   fun:dino_plugins_root_interface_registered
+}
+{
+   suppression_rule_44596
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_before
+   fun:dino_ui_conversation_summary_content_provider_populate_before
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+}
+{
+   suppression_rule_44681
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_44698
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_44715
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_44732
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_quote_get_widget
+   fun:dino_ui_conversation_summary_message_meta_item_real_get_widget
+   fun:dino_plugins_meta_conversation_item_get_widget
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_45327
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+}
+{
+   suppression_rule_45344
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+}
+{
+   suppression_rule_47941
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+}
+{
+   suppression_rule_51392
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib64/libwayland-client.so.0.22.0
+   obj:/usr/lib64/libwayland-client.so.0.22.0
+   fun:wl_display_read_events
+   obj:/usr/lib64/libgtk-4.so.1.1200.5
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_main_context_iteration
+   fun:g_application_run
+   fun:dino_main
+   fun:main
+}
+{
+   suppression_rule_52879
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+   fun:_dino_ui_conversation_summary_conversation_item_skeleton_set_header_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_notify_by_pspec
+}
+{
+   suppression_rule_52896
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+}
+{
+   suppression_rule_54965
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+   fun:dino_ui_conversation_view_controller_select_conversation
+   fun:dino_ui_main_window_controller_select_conversation
+}
+{
+   suppression_rule_54982
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+   fun:dino_ui_conversation_view_controller_select_conversation
+   fun:dino_ui_main_window_controller_select_conversation
+}
+{
+   suppression_rule_54999
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+   fun:dino_ui_conversation_view_controller_select_conversation
+   fun:dino_ui_main_window_controller_select_conversation
+   fun:__lambda9_
+}
+{
+   suppression_rule_55237
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+}
+{
+   suppression_rule_55254
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+}
+{
+   suppression_rule_55305
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_n_latest
+   fun:dino_content_item_store_get_latest
+}
+{
+   suppression_rule_55322
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_56866
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+}
+{
+   suppression_rule_56917
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+}
+{
+   suppression_rule_57509
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_notify_by_pspec
+}
+{
+   suppression_rule_57526
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_notify_by_pspec
+}
+{
+   suppression_rule_57543
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_notify_by_pspec
+}
+{
+   suppression_rule_58121
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+}
+{
+   suppression_rule_58189
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+}
+{
+   suppression_rule_58376
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_before
+   fun:dino_ui_conversation_summary_content_provider_populate_before
+}
+{
+   suppression_rule_58478
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_n_latest
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_58784
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+}
+{
+   suppression_rule_58801
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+}
+{
+   suppression_rule_58818
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_58954
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+}
+{
+   suppression_rule_59821
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_59838
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_59855
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   obj:/usr/lib64/libasound.so.2.0.0
+   obj:/usr/lib64/libasound.so.2.0.0
+   obj:/usr/lib64/libasound.so.2.0.0
+   obj:/usr/lib64/libasound.so.2.0.0
+   fun:snd_config_update_r
+   fun:snd_config_update_ref
+   fun:snd_ctl_open
+   obj:/usr/lib64/gstreamer-1.0/libgstalsa.so
+   fun:gst_device_provider_start
+   fun:gst_device_monitor_start
+   obj:*
+}
+{
+   suppression_rule_60331
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+}
+{
+   suppression_rule_60348
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+}
+{
+   suppression_rule_60365
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+}
+{
+   suppression_rule_61249
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   fun:g_slist_prepend
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+}
+{
+   suppression_rule_62524
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+   fun:_dino_ui_conversation_summary_conversation_item_skeleton_set_header_g_object_notify
+}
+{
+   suppression_rule_62541
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+   fun:_dino_ui_conversation_summary_conversation_item_skeleton_set_header_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+{
+   suppression_rule_62762
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_63408
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_63425
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_63442
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+   fun:dino_ui_conversation_view_controller_select_conversation
+}
+{
+   suppression_rule_63459
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+}
+{
+   suppression_rule_63476
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+}
+{
+   suppression_rule_63510
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_63612
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+}
+{
+   suppression_rule_64411
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_64445
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_set_header
+   fun:_dino_ui_conversation_summary_conversation_item_skeleton_set_header_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_64496
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   fun:g_malloc
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_weak_ref_set
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+}
+{
+   suppression_rule_64598
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_64615
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+{
+   suppression_rule_64632
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_64649
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+{
+   suppression_rule_64666
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+}
+{
+   suppression_rule_64683
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_signal_emit_valist
+   fun:g_signal_emit
+}
+{
+   suppression_rule_64717
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_upsert_builder_perform
+   fun:dino_entities_settings_set_check_spelling
+   fun:dino_entities_settings_construct_from_db
+   fun:dino_entities_settings_new_from_db
+   fun:dino_application_init
+}
+{
+   suppression_rule_64955
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+}
+{
+   suppression_rule_64972
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+}
+{
+   suppression_rule_64989
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_row_iterator_next
+   fun:dino_avatar_manager_get_avatar_hashes
+}
+{
+   suppression_rule_65006
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_row_iterator_next
+   fun:dino_entities_message_get_fallbacks
+}
+{
+   suppression_rule_65244
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_insert_builder_perform
+   fun:dino_database_add_content_item
+}
+{
+   suppression_rule_65278
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_regex_new
+   obj:*
+   obj:*
+   fun:g_type_class_ref
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   obj:*
+   obj:*
+   obj:*
+   fun:dino_plugins_root_interface_registered
+}
+{
+   suppression_rule_65295
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+}
+{
+   suppression_rule_65448
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+   fun:dino_content_item_store_get_items_from_query
+   fun:dino_content_item_store_get_n_latest
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+}
+{
+   suppression_rule_66655
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   obj:/usr/lib64/libglib-2.0.so.0.7800.3
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+}
+{
+   suppression_rule_66672
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+   fun:__lambda10_
+   fun:___lambda10__gsource_func
+}
+{
+   suppression_rule_66876
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_row_iterator_next
+   fun:dino_entity_info_get_stored_features
+}
+{
+   suppression_rule_67267
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_plugins_meta_conversation_item_construct
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_populate_before
+   fun:dino_ui_conversation_summary_conversation_view_load_earlier_messages
+   fun:dino_ui_conversation_summary_conversation_view_on_value_notify
+}
+{
+   suppression_rule_67403
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:g_malloc
+   fun:g_slice_alloc0
+   fun:dino_history_sync_get_mam_page
+   fun:dino_history_sync_fetch_query_co
+   fun:dino_history_sync_fetch_query
+   fun:dino_history_sync_fetch_between_ranges_co
+   fun:dino_history_sync_fetch_between_ranges
+   fun:dino_history_sync_fetch_everything_co
+   fun:dino_history_sync_fetch_everything_ready
+   obj:/usr/lib64/libgio-2.0.so.0.7800.3
+   obj:/usr/lib64/libgio-2.0.so.0.7800.3
+}
+{
+   suppression_rule_67420
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_message_item_construct
+   fun:dino_message_item_new
+   fun:dino_content_item_store_get_item
+   fun:dino_content_item_store_get_item_from_row
+}
+{
+   suppression_rule_67658
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_construct
+   fun:dino_ui_conversation_summary_conversation_item_skeleton_new
+   fun:dino_ui_conversation_summary_conversation_view_insert_new
+   fun:dino_ui_conversation_summary_conversation_view_do_insert_item
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+   fun:dino_ui_conversation_view_controller_select_conversation
+   fun:dino_ui_main_window_controller_select_conversation
+}
+{
+   suppression_rule_67721
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_row_iterator_next
+   fun:dino_message_storage_get_messages
+}
+{
+   suppression_rule_67738
+   Memcheck:Leak
+   match-leak-kinds: possible
+   fun:malloc
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   obj:/usr/lib64/libsqlite3.so.0.8.6
+   fun:sqlite3_step
+   fun:qlite_row_iterator_next
+   fun:dino_content_item_store_get_items_from_query
+}
+{
+   suppression_rule_68163
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_with_properties
+   fun:g_object_new
+   fun:dino_plugins_meta_conversation_item_construct
+   fun:dino_ui_conversation_summary_content_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_construct
+   fun:dino_ui_conversation_summary_message_meta_item_new
+   fun:dino_ui_conversation_summary_content_provider_create_content_meta_item
+   fun:dino_ui_conversation_summary_content_provider_populate_latest
+   fun:dino_ui_conversation_summary_conversation_view_display_latest
+   fun:dino_ui_conversation_summary_conversation_view_initialize_for_conversation
+}
+{
+   suppression_rule_68435
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_68452
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+{
+   suppression_rule_68469
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   fun:g_malloc0
+   fun:g_type_create_instance
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+   fun:g_object_new_valist
+   fun:g_object_new
+   fun:g_object_bind_property_full
+   fun:g_object_bind_property_with_closures
+   fun:dino_ui_avatar_picture_tile_on_model_changed
+   fun:_dino_ui_avatar_picture_tile_on_model_changed_g_object_notify
+   fun:g_closure_invoke
+   obj:/usr/lib64/libgobject-2.0.so.0.7800.3
+}
+
